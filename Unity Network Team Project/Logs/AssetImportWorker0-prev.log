@@ -1,0 +1,439 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1415; Version 2009; 64bit' Language: 'ko' Physical Memory: 32646 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity Projects/github/Unity-Network-Project/Unity Network Team Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61551
+Successfully changed project path to: D:/Unity Projects/github/Unity-Network-Project/Unity Network Team Project
+D:/Unity Projects/github/Unity-Network-Project/Unity Network Team Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/github/Unity-Network-Project/Unity Network Team Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   
+    VRAM:     8042 MB
+    Driver:   30.0.14.9709
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001478 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (941ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (389ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (123ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (157ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004774 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (903ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (729ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.9 MB.
+System memory in use after: 221.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2240.
+Total: 2.808900 ms (FindLiveObjects: 0.183300 ms CreateObjectMapping: 0.068700 ms MarkObjects: 2.441500 ms  DeleteObjects: 0.114400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefab/Item_Shockwave.prefab
+  artifactKey: Guid(0c8a81f4356228d42a4645de5445faff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Item_Shockwave.prefab using Guid(0c8a81f4356228d42a4645de5445faff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdf43878693fb08557a592d6508812e') in 0.097404 seconds 
+  Import took 0.100368 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.2 MB.
+System memory in use after: 188.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2248.
+Total: 2.624700 ms (FindLiveObjects: 0.154600 ms CreateObjectMapping: 0.055400 ms MarkObjects: 2.403600 ms  DeleteObjects: 0.010500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 103.120411 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab
+  artifactKey: Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab using Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69a1d7a271a4ed73ac37e8feea58903') in 0.035275 seconds 
+  Import took 0.039820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.543181 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab
+  artifactKey: Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab using Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caac23626ad9e77f59ff94bb640aa5f') in 0.008882 seconds 
+  Import took 0.011744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.589613 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab
+  artifactKey: Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab using Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7386cc15c5cb7f2ccfe6f99056c0016') in 0.008806 seconds 
+  Import took 0.011635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.620493 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1f25324693f87f9d2166ceb4b12aee') in 0.011288 seconds 
+  Import took 0.014337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.585453 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a400a714ad83622e3a4ab27fab4634ab') in 0.009034 seconds 
+  Import took 0.011877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.604073 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f8e6b3d986649277e1e18cc96bcdef') in 0.008419 seconds 
+  Import took 0.011239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.798303 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999ff3050362baf677a47cfe9aac052a') in 0.008570 seconds 
+  Import took 0.011445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.552301 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d365ca4df25aded85f543cc3abeadf') in 0.010886 seconds 
+  Import took 0.026710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.153604 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dd57ec2daec1fcc512243046a6c3b2') in 0.008360 seconds 
+  Import took 0.011157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.182918 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8cab542e2756664d10cfa57eba10ca') in 0.008501 seconds 
+  Import took 0.011366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.640149 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92c570aaec8574ec11a6f1bbaf773c2') in 0.008322 seconds 
+  Import took 0.011158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.601159 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3bd92fa9fc6f58d15199d0a90cf28c') in 0.008238 seconds 
+  Import took 0.011089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.612426 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3bec2d5152f3d2ec3efb831c444ab5') in 0.008424 seconds 
+  Import took 0.011306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.571195 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab
+  artifactKey: Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab using Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fbde880f8284246ebfdfa408784b86') in 0.009036 seconds 
+  Import took 0.011981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.039468 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab
+  artifactKey: Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab using Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8985fedbd32a2586ecf4dbb5c07be33') in 0.008633 seconds 
+  Import took 0.011436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.406332 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab
+  artifactKey: Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab using Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cafd4fabc6f2b0f22cefdad3c638f29') in 0.008696 seconds 
+  Import took 0.011594 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.4 MB.
+System memory in use after: 188.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2248.
+Total: 2.828300 ms (FindLiveObjects: 0.201500 ms CreateObjectMapping: 0.074600 ms MarkObjects: 2.539800 ms  DeleteObjects: 0.011700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 142.804140 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab
+  artifactKey: Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab using Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701da4058a126d1c38a0502a2730d1fd') in 0.014766 seconds 
+  Import took 0.017798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.386253 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab
+  artifactKey: Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab using Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a5b9e0ca9449e16207626447f964c8') in 0.009125 seconds 
+  Import took 0.011939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.596891 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab
+  artifactKey: Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab using Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d60b4ada3a4d49c10bf9f0abca226d4') in 0.009078 seconds 
+  Import took 0.011905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.548752 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9873e46901e66082816b5a147b7eb8') in 0.011294 seconds 
+  Import took 0.014367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583206 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0751293376a612e2b03fa37cfea803d') in 0.013319 seconds 
+  Import took 0.016341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591076 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4789c701359c63ffca9486a53d7a3cd') in 0.008906 seconds 
+  Import took 0.011723 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.4 MB.
+System memory in use after: 188.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2248.
+Total: 3.312100 ms (FindLiveObjects: 0.180900 ms CreateObjectMapping: 0.060300 ms MarkObjects: 3.056700 ms  DeleteObjects: 0.013500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 632.245557 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab
+  artifactKey: Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/EtherealHit 2.prefab using Guid(bdafa105848a31d4b8915a64b96d5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45455c73ffbdb18f9efffe294282120') in 0.021700 seconds 
+  Import took 0.024848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.062434 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1685a0826c8bc14240b1be53381c54c7') in 0.008778 seconds 
+  Import took 0.011789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.371033 seconds.
+  path: Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab
+  artifactKey: Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Particle/Sherbbs Particle Collection/Particles/Normal/Tris Spark.prefab using Guid(f23ca344d22b7d84b848fb882e92bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65f83f1d42bb5a49b31f18f9ade13ec') in 0.008202 seconds 
+  Import took 0.011111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.903393 seconds.
+  path: Assets/Prefab/Item_Shockwave.prefab
+  artifactKey: Guid(0c8a81f4356228d42a4645de5445faff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Item_Shockwave.prefab using Guid(0c8a81f4356228d42a4645de5445faff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a84f359022c3f80724c2137f6a6176') in 0.014534 seconds 
+  Import took 0.017488 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.5 MB.
+System memory in use after: 188.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2248.
+Total: 3.053600 ms (FindLiveObjects: 0.238700 ms CreateObjectMapping: 0.093100 ms MarkObjects: 2.707800 ms  DeleteObjects: 0.013200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 482.923067 seconds.
+  path: Assets/Scenes/RoomScene.unity
+  artifactKey: Guid(a810504873b37f84490f7e83ad885ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RoomScene.unity using Guid(a810504873b37f84490f7e83ad885ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12db30a5ad225532a47c4aa41bde4022') in 0.010586 seconds 
+  Import took 0.029961 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
